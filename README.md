@@ -1,125 +1,150 @@
-# Electricity-Unit-Generator-Bill-Calculator
+# **Electricity: Unit Generator & Bill Calculator**
 
-Electricity: Unit Generator & Bill Calculator
+An interactive educational application designed to help children (ages 7-12) understand electricity usage and its associated costs through a gamified interface.
 
-An educational application for teaching children (ages 7-12) about electricity usage and billing, using an interactive, game-like interface.
+---
 
-Introduction
+## **Table of Contents**
 
-Understanding the basics of electricity—its flow and how household appliances use it—is often difficult for children in the age range of 7-12. This application aims to teach kids these concepts in an engaging, fun, and interactive way. It uses a combination of visuals, drag-and-drop interactions, and educational content to simplify complex topics like electricity and fuel usage.
+1. [Introduction](#introduction)
+2. [Features](#features)
+3. [Application Interface](#application-interface)
+4. [Usage](#usage)
+5. [Bill Calculation and Unit Generation](#bill-calculation-and-unit-generation)
+6. [System Requirements](#system-requirements)
+7. [Acknowledgements](#acknowledgements)
+8. [Troubleshooting](#troubleshooting)
 
-The goal is to provide an alternative method for learning that integrates both education and entertainment, especially for children in schools that may not have access to advanced tools like animations or interactive learning systems.
+---
 
-Features
-1. Demo Mode
+## **Introduction**
 
-Drag & Drop Interface: Allows users to drag appliances and place them in their respective locations on the house plan.
+The **Electricity: Unit Generator & Bill Calculator** application was created to help children aged 7-12 learn about the flow of electricity and how household appliances consume power. The app offers an engaging, interactive platform where kids can place appliances in a virtual house, track energy usage, and calculate electricity bills. By combining gaming elements with educational content, this application makes learning about electricity fun and accessible.
 
-Unit Generator: Displays the total units of electricity consumed based on the appliances placed.
+---
 
-Bill Calculator: Generates a bill based on the units consumed.
+## **Features**
 
-Electricity & Fuel Flow Animation: Shows a GIF representation of the flow of electricity and fuel from generation to household usage.
+### **Demo Mode:**
 
-Interactive Appliances: Includes various household appliances (e.g., microwave, fan, refrigerator) and fuel-based devices (e.g., car, cylinder).
+* **Drag & Drop Interface**: Place appliances in a virtual house layout using a simple drag-and-drop feature.
+* **Unit Generator**: Automatically tracks electricity consumption for each appliance.
+* **Bill Calculator**: Generates a monthly electricity bill based on total energy consumption.
+* **Electricity & Fuel Flow Animation**: Displays an animated GIF showing how electricity and fuel are procured and distributed for household use.
+* **Appliance Interaction**: Includes common household appliances (microwave, fan, refrigerator, etc.) and fuel-based devices (car, gas cylinder).
+* **Multiple Appliance Placements**: Appliances like bulbs and fans can be placed multiple times throughout the house.
 
-Multiple Locations for Appliances: Certain appliances like bulbs and fans have multiple instances that can be placed around the house.
+### **Advanced Mode:**
 
-Appliance Removal: Appliances can be dragged back to their slots to remove them and reduce the total unit count.
+* **Customizable House Plans**: Choose from 1 BHK, 2 BHK, 3 BHK, or 4 BHK layouts.
+* **Pre-placed Appliances**: Common appliances such as bulbs, fans, and mixers are already placed in the layout.
+* **Luxury Appliance Selection**: Select luxury appliances (TV, air conditioner, washing machine, etc.), specify brand and star rating (based on Bureau of Energy Efficiency standards).
+* **Accurate Bill Calculation**: Calculates electricity bills based on selected appliances and energy consumption.
+* **Educational Videos**: Access curated educational content related to electricity and energy conservation via YouTube.
 
-2. Advanced Mode
+---
 
-House Plan Selection: Choose from 1 BHK, 2 BHK, 3 BHK, or 4 BHK layouts.
+## **Application Interface**
 
-Pre-placed Appliances: Common appliances like bulbs, fans, and mixers are already placed.
+### **Getting Started:**
 
-Luxury Appliance Customization: Allows users to select company names and star ratings for luxury appliances like air conditioners, refrigerators, and washing machines.
+1. **Launch the Application**:
 
-Bill Calculation: Calculates the bill based on the selected appliances and their configurations, with accurate rates derived from MSEB (Maharashtra State Electricity Board).
+   * Open the "ProjV1" file to start the application.
+   * A configuration box will appear, allowing you to adjust graphic settings and input options (mouse control only).
 
-Application Interface
+![1](https://github.com/user-attachments/assets/35568140-62df-4fd6-af63-243dd7e423f5)
 
-The interface is designed to be intuitive and interactive for children. Here’s how to get started:
+2. **Configuration Settings**:
 
-Start the Application:
+   * **Screen Resolution**: Choose your desired resolution from the dropdown list.
+   * **Graphics Quality**: Adjust the quality settings based on your system’s performance.
+   * **Windowed Mode**: Enable windowed mode for a non-fullscreen experience.
+   * Click **"Play!"** to start the application or **"Quit"** to exit the configuration.
 
-Open the "ProjV1" file to launch the app.
+### **In-Game Interface**:
 
-A config box will appear where you can select graphics settings and input options (mouse is used for input).
+* **Drag & Drop**: Appliances can be dragged from the side panel and dropped onto the house layout.
+* **Unit Bar**: Displays the total number of units consumed based on the appliances placed in the house.
+* **Bill Button**: Generates an electricity bill based on the number of units consumed.
 
-Click "Play!" to start or "Quit" to close the config box.
+---
 
-Resolution and Graphics:
+## **Usage**
 
-Screen Resolution: Choose from the drop-down list.
+### **1. Demo Mode**:
 
-Graphics Quality: Adjust graphics quality as needed.
+1. **Start the Application**: Upon launching the application, the first scene displays a house plan.
+2. **Place Appliances**: Drag appliances from the left panel and drop them into the house layout. Valid drop locations are highlighted in green.
 
-Gameplay:
+Appliances with Single Placeholders:
 
-Drag & Drop: In both the demo and advanced modes, you can drag appliances from a menu and place them in the house layout.
+<img width="1282" height="758" alt="2" src="https://github.com/user-attachments/assets/8d29ab71-240d-40ed-bf0e-576d9daa2723" />
 
-Units Bar: Displays the total number of units consumed by all placed appliances.
+Applicanes with Multiple Placeholders:
 
-Bill Button: Generates the electricity bill based on the current appliance placements.
+<img width="1283" height="758" alt="3" src="https://github.com/user-attachments/assets/1f1dd0a4-8275-4d5f-b7f8-3ca437f42fb9" />
 
-How to Use
-1. Demo Mode
 
-Step 1: Run the application.
 
-Step 2: Select appliances from the slots on the left and drag them onto the house layout on the right. Locations for placement are highlighted in green.
+3. **Track Units**: The unit bar at the top of the screen will update as appliances are placed.
+4. **Remove Appliances**: To remove an appliance, click on it and drag it back to the original slot. This will update the unit count.
+5. **Generate Bill**: Click the **Bill Button** to calculate the total bill based on electricity consumption.
+6. **View Educational Animation**: The electricity and fuel flow animation will display to explain how power is generated and consumed.
 
-Step 3: The unit bar will update as appliances are placed. When an appliance is removed, the unit count will decrease.
+<img width="1280" height="755" alt="4" src="https://github.com/user-attachments/assets/7bbe28ca-cff8-4714-b5fb-2ec2e88e2dbe" />
 
-Step 4: Click the Bill Button to calculate the total bill based on the units used.
+8. **View Educational Videos**: Click **Next** to watch related educational videos. An internet connection is required to access these videos.
+9. **Exit**: Click **Exit** to close the application.
 
-Step 5: View the electricity and fuel flow animation to learn about how electricity is generated and distributed.
+### **2. Advanced Mode**:
 
-Step 6: Click Next to view related educational videos on YouTube (internet connection required).
+1. **Select a Plan**: Choose a house layout (1 BHK, 2 BHK, 3 BHK, or 4 BHK).
+2. **Modify Appliances**: High load appliances like TV, air conditioner, washing machine, refrigerator, and microwave can be selected by clicking on them, then choosing a brand and star rating. The star rating indicates the appliance’s energy efficiency.
 
-Step 7: Click Back to return to the previous screen and reset values, or Exit to close the application.
+<img width="1282" height="759" alt="8" src="https://github.com/user-attachments/assets/8131570c-3dbe-47a6-88ac-7e2bb8c5665e" />
 
-2. Advanced Mode
 
-Step 1: Choose a house plan (1 BHK, 2 BHK, 3 BHK, 4 BHK) from the menu.
+3. **Bill Calculation**: Once the appliances are configured, the bill will be calculated automatically.
+4. **Reset Values**: Clicking **Back to Menu** will reset all values to their defaults.
+5. **Exit Application**: Click **Exit** to close the app and reset all configurations.
 
-Step 2: Modify luxury appliances (e.g., TV, air conditioner) by selecting the company and star rating.
+---
 
-Step 3: The app will automatically calculate the bill for the selected appliances.
+## **Bill Calculation and Unit Generation**
 
-Step 4: You can click Back to Menu to return to the house selection screen or Exit to close the app.
+* **Units**: The total number of units consumed is calculated based on the energy consumption of each appliance.
+* **Bill**: The electricity bill is calculated based on the units consumed, following the MSEB (Maharashtra State Electricity Board) tariff rates. The bill is generated for one month of usage.
+* **Fuel Devices**: Devices like cars and gas cylinders are available in the app but do not impact the electricity bill.
 
-Bill Calculation and Unit Generation
+---
 
-Units: The total electricity units consumed are calculated based on the appliances selected and their energy consumption ratings.
+## **System Requirements**
 
-Bill: The bill is calculated using real-world formulas based on unit consumption. The bill reflects the typical monthly consumption for a household.
+* **Operating System**: Windows or macOS
+* **Input**: Mouse (keyboard not required)
+* **Internet**: Required for streaming educational videos from YouTube
+* **Hardware**: Minimum 2 GB RAM recommended for optimal performance
 
-Fuel Devices: Fuel-based appliances like cars and cylinders are included, but they don’t affect the electricity bill.
+---
 
-Requirements
+## **Acknowledgements**
 
-Operating System: Windows or macOS
+* **Energy Efficiency Data**: Bill calculation formulas are based on real-world data from MSEB (Maharashtra State Electricity Board).
+* **Bureau of Energy Efficiency**: The star rating system for appliances is based on the Bureau of Energy Efficiency (BEE) standards.
 
-Input: Mouse (No keyboard input required)
+---
 
-Internet: Required for viewing educational videos via YouTube.
+## **Troubleshooting**
 
-License
+* **Resolution Issues**: If the application doesn’t fit your screen, adjust the screen resolution settings in the config box.
+* **Lag or Performance Issues**: Reduce the graphics quality settings to improve performance.
+* **No Internet for Videos**: Educational videos require an active internet connection. If unable to play, check your connection.
 
-This project is licensed under the MIT License - see the LICENSE
 
-file for details.
+---
 
-Acknowledgements
+### **Conclusion**
 
-The bill calculation formulas are based on industry standards and MSEB's rates.
+This README is designed to provide clear, structured, and professional documentation for your **Electricity: Unit Generator & Bill Calculator** project. It outlines key features, how to use the application, system requirements, and licensing information in an easy-to-follow format. This will make it easier for users (whether teachers, students, or parents) to understand how to navigate and benefit from the application.
 
-Special thanks to the Bureau of Energy Efficiency (BEE) for their star rating system.
-
-Troubleshooting
-
-Resolution Issues: If the game doesn’t fit your screen, try adjusting the resolution settings from the config box.
-
-Performance: For better performance, select a lower graphic quality if you experience lag.
